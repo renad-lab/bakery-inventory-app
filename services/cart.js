@@ -94,10 +94,7 @@ const addItemToCart = (itemId, quantity) => {
   const item = inventory.find((item) => item.id === itemId);
 
   if (item) {
-    // Ensure the item exists in the inventory
-    for (let i = 0; i < quantity; i++) {
-      cart.push(item);
-    }
+    cart.push({ ...item, quantity: quantity });
   } else {
     console.log(
       `Item with ID ${itemId} not found in inventory, cannot add to cart.`

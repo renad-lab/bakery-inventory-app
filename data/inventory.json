@@ -5,15 +5,7 @@
     "priceInCents": 399,
     "inStock": true,
     "isVegan": false,
-    "quantity": 2
-  },
-  {
-    "id": "2",
-    "name": "Lavender Shortbread",
-    "priceInCents": 299,
-    "inStock": true,
-    "isVegan": true,
-    "quantity": 30
+    "quantity": 0
   },
   {
     "id": "3",
@@ -21,7 +13,7 @@
     "priceInCents": 499,
     "inStock": false,
     "isVegan": false,
-    "quantity": 15
+    "quantity": 14
   },
   {
     "id": "4",
@@ -141,7 +133,7 @@
     "priceInCents": 499,
     "inStock": true,
     "isVegan": false,
-    "quantity": 16
+    "quantity": 0
   },
   {
     "id": "19",
@@ -149,7 +141,7 @@
     "priceInCents": 399,
     "inStock": true,
     "isVegan": true,
-    "quantity": 32
+    "quantity": 0
   },
   {
     "id": "20",
@@ -157,6 +149,6 @@
     "priceInCents": 349,
     "inStock": true,
     "isVegan": true,
-    "quantity": 50
+    "quantity": 0
   }
 ]

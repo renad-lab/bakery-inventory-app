@@ -147,24 +147,21 @@ function clearCartFile() {
   }
 }
 
-function performCheckout() {
+async function performCheckout() {
   let inventory = readInventoryFile();
   let cart = readCartFile();
-
   cart.forEach((cartItem) => {
-    if (cartItem) {
-      // Check if cartItem is not null
-      const foundItem = inventory.find((invItem) => invItem.id === cartItem.id);
-      if (foundItem) {
-        foundItem.quantity -= cartItem.quantity;
-        if (foundItem.quantity < 0) {
-          foundItem.quantity = 0; // Ensure quantity doesn't go negative
-        }
-      } else {
-        console.log(`Item with ID ${cartItem.id} not found in inventory.`);
+    // Check if cartItem is not null
+    const foundItem = inventory.find((invItem) => invItem.id === cartItem.id);
+    if (foundItem) {
+      foundItem.quantity -= cartItem.quantity;
+      console.log(foundItem.quantity);
+      if (foundItem.quantity < 0) {
+        console.log(foundItem.quantity);
+        foundItem.quantity = 0; // Ensure quantity doesn't go negative
       }
     } else {
-      console.log("Found out-of-stock item, sorry, skipping...");
+      console.log(`Item with ID ${cartItem.id} not found in inventory.`);
     }
   });
 

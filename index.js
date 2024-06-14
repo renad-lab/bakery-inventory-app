@@ -58,10 +58,8 @@ const displayBanner = async () => {
     chalk.blue.bold("\nWelcome to Cookie Monster's Chip Emporium!\n")
   );
 };
-
+displayBanner();
 const mainMenu = async () => {
-  await displayBanner();
-
   const choices = [
     "View All Items",
     "View Item Details",
@@ -363,7 +361,7 @@ const askToCheckout = async () => {
 
   //   if (confirmCheckout) {
   //     await askForPaymentMethod();
-  //     performCheckout();
+  //     Checkout();
   //     emptyCart();
   //     console.log(chalk.green("Thank you for your purchase!"));
   //     console.log(chalk.blue(thankYouArt));
@@ -389,7 +387,7 @@ const askToCheckout = async () => {
 
     try {
       await askForPaymentMethod();
-      performCheckout();
+      await performCheckout();
       emptyCart();
       clearTimeout(timeoutId);
       spinner.succeed("Order processed successfully.");

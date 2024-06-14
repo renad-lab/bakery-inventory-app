@@ -1,7 +1,3 @@
-To create a GitHub README file for your project, here's a structured template that includes an overview, installation instructions, usage examples, and more:
-
----
-
 # Cookie Monster's Chip Emporium CLI
 
 Welcome to Cookie Monster's Chip Emporium CLI application! This CLI tool allows you to manage inventory, handle shopping cart operations, and simulate a checkout process.

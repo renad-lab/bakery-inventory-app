@@ -1,0 +1,24 @@
+{
+  "name": "bakery-inventory-app",
+  "version": "1.0.0",
+  "description": "Cookie Monster's Chip Emporium",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@faker-js/faker": "^8.4.1",
+    "@toxickichux/fancytext": "^1.0.3",
+    "chalk": "^2.1.0",
+    "cli-spinners": "^2.9.2",
+    "cli-table": "^0.3.11",
+    "figlet": "^1.6.0",
+    "inquirer": "^8.2.6",
+    "nanoid": "^3.3.4",
+    "ora": "^8.0.1",
+    "uuid": "^10.0.0"
+  }
+}

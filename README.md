@@ -16,13 +16,13 @@ To use Cookie Monster's Chip Emporium CLI, follow these steps:
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/your-username/cookie-monster-chip-emporium.git
+   git clone https://github.com/renad-lab/bakery-inventory-app.git
    ```
 
 2. **Navigate to the project directory:**
 
    ```bash
-   cd cookie-monster-chip-emporium
+   cd bakery-inventory-app
    ```
 
 3. **Install dependencies:**

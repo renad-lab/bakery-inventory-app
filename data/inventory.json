@@ -1,0 +1,162 @@
+[
+  {
+    "id": "1",
+    "name": "Rose Petal Cookies",
+    "priceInCents": 399,
+    "inStock": true,
+    "isVegan": false,
+    "quantity": 0
+  },
+  {
+    "id": "2",
+    "name": "Lavender Shortbread",
+    "priceInCents": 299,
+    "inStock": true,
+    "isVegan": true,
+    "quantity": 30
+  },
+  {
+    "id": "3",
+    "name": "Chamomile Honey Cookies",
+    "priceInCents": 499,
+    "inStock": false,
+    "isVegan": false,
+    "quantity": 0
+  },
+  {
+    "id": "4",
+    "name": "Hibiscus Ginger Snaps",
+    "priceInCents": 449,
+    "inStock": true,
+    "isVegan": false,
+    "quantity": 20
+  },
+  {
+    "id": "5",
+    "name": "Jasmine Lemon Biscuits",
+    "priceInCents": 349,
+    "inStock": true,
+    "isVegan": true,
+    "quantity": 10
+  },
+  {
+    "id": "6",
+    "name": "Sunflower Seed Crunchies",
+    "priceInCents": 299,
+    "inStock": true,
+    "isVegan": true,
+    "quantity": 15
+  },
+  {
+    "id": "7",
+    "name": "Peony Almond Macarons",
+    "priceInCents": 599,
+    "inStock": true,
+    "isVegan": false,
+    "quantity": 25
+  },
+  {
+    "id": "8",
+    "name": "Daisy Shortbread Rounds",
+    "priceInCents": 399,
+    "inStock": true,
+    "isVegan": false,
+    "quantity": 18
+  },
+  {
+    "id": "9",
+    "name": "Tulip Raspberry Linzers",
+    "priceInCents": 449,
+    "inStock": true,
+    "isVegan": false,
+    "quantity": 22
+  },
+  {
+    "id": "10",
+    "name": "Orchid Chocolate Chunk Cookies",
+    "priceInCents": 499,
+    "inStock": true,
+    "isVegan": false,
+    "quantity": 12
+  },
+  {
+    "id": "11",
+    "name": "Violet Lavender Biscotti",
+    "priceInCents": 399,
+    "inStock": true,
+    "isVegan": false,
+    "quantity": 8
+  },
+  {
+    "id": "12",
+    "name": "Poppy Seed Lemon Cookies",
+    "priceInCents": 349,
+    "inStock": true,
+    "isVegan": true,
+    "quantity": 28
+  },
+  {
+    "id": "13",
+    "name": "Lotus Ginger Snickerdoodles",
+    "priceInCents": 449,
+    "inStock": true,
+    "isVegan": false,
+    "quantity": 17
+  },
+  {
+    "id": "14",
+    "name": "Marigold Pistachio Macarons",
+    "priceInCents": 599,
+    "inStock": true,
+    "isVegan": false,
+    "quantity": 14
+  },
+  {
+    "id": "15",
+    "name": "Magnolia Orange Blossom Cookies",
+    "priceInCents": 499,
+    "inStock": true,
+    "isVegan": false,
+    "quantity": 23
+  },
+  {
+    "id": "16",
+    "name": "Hyacinth Hazelnut Shortbread",
+    "priceInCents": 399,
+    "inStock": true,
+    "isVegan": false,
+    "quantity": 21
+  },
+  {
+    "id": "17",
+    "name": "Carnation Caramel Bites",
+    "priceInCents": 449,
+    "inStock": true,
+    "isVegan": false,
+    "quantity": 9
+  },
+  {
+    "id": "18",
+    "name": "Peony Pistachio Lemon Cookies",
+    "priceInCents": 499,
+    "inStock": true,
+    "isVegan": false,
+    "quantity": 16
+  },
+  {
+    "id": "19",
+    "name": "Rosemary Shortbread Stars",
+    "priceInCents": 399,
+    "inStock": true,
+    "isVegan": true,
+    "quantity": 32
+  },
+  {
+    "id": "20",
+    "name": "Basil Lemon Snaps",
+    "priceInCents": 349,
+    "inStock": true,
+    "isVegan": true,
+    "quantity": 50
+  }
+]

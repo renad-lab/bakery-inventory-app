@@ -158,5 +158,13 @@
     "inStock": true,
     "isVegan": true,
     "quantity": 6
+  },
+  {
+    "id": "AM",
+    "name": "10.5 Special Anxiety Cookie",
+    "priceInCents": 0,
+    "inStock": true,
+    "isVegan": false,
+    "quantity": 100
   }
 ]

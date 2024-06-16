@@ -212,7 +212,7 @@ const addNewItem = async () => {
       name: "priceInCents",
       type: "number",
       message: "Enter item price (in cents):",
-      validate: (value) => !isNaN(value) && value > 0,
+      validate: (value) => !isNaN(value) && value >= 0,
     },
     {
       name: "inStock",
@@ -254,7 +254,7 @@ const updateExistingItem = async () => {
       name: "priceInCents",
       type: "number",
       message: "Enter new item price (in cents):",
-      validate: (value) => !isNaN(value) && value > 0,
+      validate: (value) => !isNaN(value) && value >= 0,
     },
     {
       name: "inStock",
@@ -270,7 +270,7 @@ const updateExistingItem = async () => {
       name: "quantity",
       type: "number",
       message: "Enter new quantity:",
-      validate: (value) => !isNaN(value) && value > 0,
+      validate: (value) => !isNaN(value) && value >= 0,
     },
   ]);
 

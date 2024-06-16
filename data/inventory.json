@@ -5,7 +5,15 @@
     "priceInCents": 399,
     "inStock": true,
     "isVegan": false,
-    "quantity": 0
+    "quantity": 30
+  },
+  {
+    "id": "2",
+    "name": "Lavender Honey Biscuits",
+    "priceInCents": 459,
+    "inStock": true,
+    "isVegan": false,
+    "quantity": 12
   },
   {
     "id": "3",
@@ -133,7 +141,7 @@
     "priceInCents": 499,
     "inStock": true,
     "isVegan": false,
-    "quantity": 0
+    "quantity": 63
   },
   {
     "id": "19",
@@ -141,7 +149,7 @@
     "priceInCents": 399,
     "inStock": true,
     "isVegan": true,
-    "quantity": 0
+    "quantity": 39
   },
   {
     "id": "20",
@@ -149,6 +157,6 @@
     "priceInCents": 349,
     "inStock": true,
     "isVegan": true,
-    "quantity": 0
+    "quantity": 6
   }
 ]

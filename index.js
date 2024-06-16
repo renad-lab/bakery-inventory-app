@@ -5,6 +5,7 @@ const { nanoid } = require("nanoid");
 const { faker } = require("@faker-js/faker");
 const { writeJsonFile, readJsonFile } = require("./helpers");
 const cliSpinners = require("cli-spinners");
+const figlet = require("figlet");
 
 const {
   readInventory,
@@ -56,15 +57,25 @@ const cookieMonsterArt = `
 ⬛🟦🟦🟦🟦🟦🟦🟦🟦🟦🟦🟦🟦🟦⬛⬛🟦🟦🟦🟦🟦🟦🟦🟦🟦⬛⬜⬜⬜⬜⬜
 `;
 
-const displayBanner = async () => {
-  console.log(chalk.blue(cookieMonsterArt));
-  console.log(
-    chalk.blue.bold(
-      "\nWelcome to Cookie Monster's Craaaaazy Cookie Emporium!\n"
-    )
-  );
+const displayBanner = () => {
+  figlet("me want crazy cookie", { font: "Thin" }, (err, data) => {
+    if (err) {
+      console.log("Something went wrong...");
+      console.dir(err);
+      return;
+    }
+    console.log(cookieMonsterArt);
+    console.log(chalk.blue(data));
+    console.log(
+      chalk.blue.bold(
+        "\nWelcome to Cookie Monster's Craaaaazy Cookie Emporium!\n"
+      )
+    );
+  });
 };
+
 displayBanner();
+
 const mainMenu = async () => {
   const choices = [
     "View All Items",
@@ -81,7 +92,7 @@ const mainMenu = async () => {
   const answers = await inquirer.prompt({
     name: "action",
     type: "list",
-    message: chalk.blue.bold("What would you like to do?"),
+    message: chalk.blue.bold("What can I do for you today?"),
     choices,
   });
 

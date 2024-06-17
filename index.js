@@ -142,7 +142,7 @@ const viewAllItems = async () => {
       chalk.bold("Is Vegan"),
       chalk.bold("Available Quantity"),
     ],
-    colWidths: [10, 30, 10, 10, 10, 20],
+    colWidths: [5, 35, 10, 10, 10, 20],
   });
 
   inventory.forEach((item) => {
@@ -180,7 +180,7 @@ const viewItemDetails = async () => {
         chalk.bold("Is Vegan"),
         chalk.bold("Available Quantity"),
       ],
-      colWidths: [10, 30, 10, 10, 10, 20],
+      colWidths: [5, 35, 10, 10, 10, 20],
     });
 
     table.push([
